@@ -63,7 +63,7 @@ overflow:hidden;
 .b2 {
     width: 65%;
     height: calc(100% - 75px);
-    float: left;
+    float: right;
 }
 
 .blockc {

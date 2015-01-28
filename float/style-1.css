@@ -29,7 +29,7 @@ body {
     line-height: 75px;
     text-align: center;
     font-weight: 400;
-    display:table-header-group;
+
 }
 .cont{
     display:block;
@@ -42,7 +42,7 @@ body {
     height: calc(100% - 75px);
     background-color: #7bcfa9;
     margin-top: 0px;
-    display: table-footer-group;
+
 
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .b2 {
-    display: table-row-group;
+
     width: 100%;
     height: calc(100% - 75px);
 
