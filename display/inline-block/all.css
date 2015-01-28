@@ -1,0 +1,29 @@
+.bl{
+    color:white;
+    font-size: 20px;
+    margin:25px;
+    height: 200px;
+
+    border:1px solid black;
+    text-align: left;
+
+}
+div .blockc{
+
+padding-top:5px;
+}
+.blockc:hover{
+box-shadow: 0px 1px 8px black;
+    padding-top:5px;
+}
+.blockd1:hover{
+    box-shadow: 0px 1px 8px black;
+    padding-top:5px;
+}
+.blockd2:hover{
+    box-shadow: 0px 1px 8px black;
+    padding-top:5px;
+}
+div{
+    transition:0.5s;
+}
