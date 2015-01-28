@@ -1,5 +1,6 @@
 html, body, .layout {
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
     width: 100%;
     height: 100%;
     margin: auto;
+    overflow: hidden;
 }
 
 .blockb {
@@ -21,77 +23,97 @@ body {
     padding-left: 10%;
     width: 90%;
     height: 75px;
-    background-color: #33b679;
-
+    background-color: #427fed;
+color:white;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    font-weight: 400;
 }
 
 .blockb1 {
-    width: 35%;
+    width: calc(100% - 65% - .01em);
     height: calc(100% - 75px);
-    background-color: #7bcfa9;
+    background-color: #a0c3ff;
     margin-top: 0px;
-    float: left;
+    border: 0px solid black;
+    display: inline-block;
+
+}
+
+.b2 {
+    width: 65%;
+    height: calc(100% - 75px);
+    display: inline-block;
+    border: 0px solid black;
+    margin-top: 0px;
+    margin-left: -4px;
 }
 
 .blockb2 {
     width: 100%;
     padding-left: 0%;
     height: 100%;
-    background-color: #1a8763;
+    background-color: #4374e0;
     margin-top: 0px;
-
+    border: 0px solid black;
 }
 
 .c0 {
     padding: 25px;
-    height: calc(100% - 75px);
+    height: calc(100% - 50px);
     width: calc(100% - 25px)%;
     border: 0px solid black;
-overflow:hidden;
-}
+    overflow: hidden;
 
-.b2 {
-    width: 65%;
-    height: calc(100% - 75px);
-    float: left;
 }
 
 .blockc {
-    background-color: #7bcfa9;
+    background-color: #a0c3ff;
     width: 90%;
     height: 75%;
 
     padding-left: 10%;
 }
 
-
-
 .blockd1 {
-    background-color: #0f9d58;
+    background-color: #4285f4;
     width: 25%;
     height: 25%;
     float: left;
     margin-top: 25px;
+    padding-left: 75%;
     border: 0px solid black;
-
 }
 
 .blockd2 {
-    background-color: #33b679;
+    background-color: #76a7fa;
     float: left;
     width: 75%;
     height: 25%;
     margin-top: 25px;
     border: 0px solid black;
-padding-left:25%;
+    padding-left: 25%;
+    border: 0px solid black;
 }
-.d2{
+
+.d2 {
     margin-left: 25px;
-    float:left;
-    height: 100%;
-    width: calc(100% - 25px - 25%);
-    border:0px solid black;
+    display: inline-block;
+    height: 90%;
+    width: calc(100% - 25px - 25% - 0.01em);
+    border: 0px solid black;
+
 }
+
+.d1 {
+    overflow: hidden;
+    display: inline-block;
+    height: 90%;
+    width: calc(100% - 75% - 4px);
+    border: 0px solid black;
+}
+
 .reg {
     margin-top: 5%;
     height: 90%;
