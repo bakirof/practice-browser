@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: 100%;
     margin: auto;
-
+    overflow: hidden;
 }
 
 .blockb {
@@ -20,7 +20,7 @@ body {
 }
 
 .blocka {
-    padding-left: 10%;
+    padding-right: 10%;
     width: 90%;
     height: 75px;
     background-color: #427fed;
@@ -32,25 +32,33 @@ body {
 }
 
 .blockb1 {
-    width: calc(100% - 65% - .01em);
+    width: calc(100% - 65%);
     height: calc(100% - 75px);
     background-color: #a0c3ff;
     margin-top: 0px;
-
+    border: 0px solid black;
     display: inline-block;
     color:white;
+    margin-left:-.26em;
 
 
 
 
 }
+.text0{
+    height:  calc(100%);
 
+    border: 0px solid black;
+}
+.text{
+    display:inherit;
+}
 .b2 {
     width: 65%;
     height: calc(100% - 75px);
     display: inline-block;
     border: 0px solid black;
-    margin-top: 0px;
+
 
 }
 
@@ -65,9 +73,9 @@ body {
 
 .c0 {
     padding: 25px;
-    height: calc(100% - 50px);
+    height: calc(100% - 60px);
     width: calc(100% - 25px)%;
-    border: 0px solid black;
+    border:0px solid black;
     overflow: hidden;
 
 }
@@ -77,7 +85,7 @@ body {
     width: 90%;
     height: 75%;
 
-    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .blockd1 {
@@ -86,7 +94,7 @@ body {
     height: 25%;
     float: left;
     margin-top: 25px;
-    padding-left: 75%;
+    padding-right: 75%;
     border: 0px solid black;
 }
 
@@ -97,7 +105,7 @@ body {
     height: 25%;
     margin-top: 25px;
     border: 0px solid black;
-    padding-left: 25%;
+    padding-right: 25%;
     border: 0px solid black;
 }
 
@@ -118,7 +126,7 @@ body {
 
 }
 .d1 {
-    overflow: hidden;
+
     display: inline-block;
     height: 90%;
     width: calc(100% - 75% - 4px);
@@ -137,7 +145,7 @@ body {
 .two {
 
     width: 90%;
-    border: 0px solid gray;
+    border: 1px solid gray;
     margin-left: auto;
     margin-right: auto;
 }
