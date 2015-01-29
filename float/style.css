@@ -1,120 +1,380 @@
-html, body, .layout {
-    height: 100%;
-    font-family: 'Open Sans', sans-serif;
+@media screen and (min-width: 1024px) {
+    html, body, .layout {
+        height: 100%;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    .layout {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .blockb {
+
+        height: 90%;
+    }
+
+    .blocka {
+        padding-left: 10%;
+        width: 90%;
+        height: 75px;
+        background-color: #33b679;
+        color: white;
+        font-size: 50px;
+        line-height: 75px;
+        text-align: center;
+        font-weight: 400;
+
+    }
+
+    .blockb1 {
+        width: 35%;
+        height: calc(100% - 75px);
+        background-color: #7bcfa9;
+        margin-top: 0px;
+        float: left;
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        line-height: 125px;
+    }
+
+    .blockb2 {
+        width: 100%;
+        padding-right: 0%;
+        height: 100%;
+        background-color: #1a8763;
+        margin-top: 0px;
+
+    }
+
+    .c0 {
+        padding: 25px;
+        height: calc(100% - 75px);
+        width: calc(100% - 25px)%;
+        border: 0px solid black;
+        overflow: hidden;
+    }
+
+    .b2 {
+        width: 65%;
+        height: calc(100% - 75px);
+        float: right;
+    }
+
+    .blockc {
+        background-color: #7bcfa9;
+        width: 90%;
+        height: 75%;
+
+        padding-right: 10%;
+    }
+
+    .blockd1 {
+        background-color: #0f9d58;
+        width: 25%;
+        height: 25%;
+        float: left;
+        margin-top: 25px;
+        border: 0px solid black;
+
+    }
+
+    .blockd2 {
+        background-color: #33b679;
+        float: left;
+        width: 75%;
+        height: 25%;
+        margin-top: 25px;
+        border: 0px solid black;
+        padding-right: 25%;
+    }
+
+    .d2 {
+        margin-left: 25px;
+        float: left;
+        height: 100%;
+        width: calc(100% - 25px - 25%);
+        border: 0px solid black;
+    }
+
+    .reg {
+        margin-top: 5%;
+        height: 90%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+    }
+
+    .two {
+
+        width: 90%;
+        border: 0px solid gray;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    html, body, .layout {
+        height: 100%;
+        font-family: 'Open Sans', sans-serif;
+    }
 
-body {
-    margin: 0px;
+    body {
+        margin: 0px;
+    }
+
+    .layout {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display:table;
+    }
+
+    .blockb {
+
+        height: 90%;
+    }
+
+    .blocka {
+
+        width: 100%;
+        height: 75px;
+        background-color: #33b679;
+        color:white;
+        font-size: 50px;
+        line-height: 75px;
+        text-align: center;
+        font-weight: 400;
+
+    }
+    .cont{
+        display:block;
+        padding:25px;
+        color:white;
+        font-size:60px;
+    }
+    .blockb1 {
+        width: 100%;
+        height: calc(100% - 75px);
+        background-color: #7bcfa9;
+        margin-top: 0px;
+
+
+    }
+
+    .blockb2 {
+        width: 100%;
+        padding-left: 0%;
+        height: 800px;
+        background-color: #1a8763;
+        margin-top: 0px;
+
+    }
+
+    .c0 {
+        padding: 25px;
+        height: calc(100% - 75px);
+        overflow: hidden;
+        border: 0px solid black;
+
+    }
+
+    .b2 {
+
+        width: 100%;
+        height: calc(100% - 75px);
+
+    }
+
+    .blockc {
+        background-color: #7bcfa9;
+        width: 90%;
+        height: 75%;
+
+        padding-right: 10%;
+    }
+
+
+
+    .blockd1 {
+        background-color: #0f9d58;
+        width: 25%;
+        height: 25%;
+        float: left;
+        margin-top: 25px;
+        border: 0px solid black;
+
+    }
+
+    .blockd2 {
+        background-color: #33b679;
+        float: left;
+        width: 75%;
+        height: 25%;
+        margin-top: 25px;
+        border: 0px solid black;
+        padding-right:25%;
+    }
+    .d2{
+        margin-left: 25px;
+        float:left;
+        height: 100%;
+        width: calc(100% - 25px - 25%);
+        border:0px solid black;
+
+    }
+    .reg {
+        margin-top: 5%;
+        height: 90%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+    }
+
+    .two {
+
+        width: 90%;
+        border: 0px solid gray;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 }
+@media screen and (max-width: 600px) {
+    html, body, .layout {
+        height: 100%;
+        font-family: 'Open Sans', sans-serif;
+    }
 
-.layout {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
+    body {
+        margin: 0px;
+    }
 
-.blockb {
+    .layout {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display:table;
+    }
 
-    height: 90%;
-}
+    .blockb {
 
-.blocka {
-    padding-left: 10%;
-    width: 90%;
-    height: 75px;
-    background-color: #33b679;
-    color:white;
-    font-size: 50px;
-    line-height: 75px;
-    text-align: center;
-    font-weight: 400;
+        height: 90%;
+    }
 
-}
+    .blocka {
 
-.blockb1 {
-    width: 35%;
-    height: calc(100% - 75px);
-    background-color: #7bcfa9;
-    margin-top: 0px;
-    float: left;
-    color:white;
-    font-size: 60px;
-    text-align: center;
-    line-height: 125px;
-}
+        width: 100%;
+        height: 75px;
+        background-color: #33b679;
+        color:white;
+        font-size: 50px;
+        line-height: 75px;
+        text-align: center;
+        font-weight: 400;
 
-.blockb2 {
-    width: 100%;
-    padding-right: 0%;
-    height: 100%;
-    background-color: #1a8763;
-    margin-top: 0px;
+    }
+    .cont{
+        display:block;
 
-}
-
-.c0 {
-    padding: 25px;
-    height: calc(100% - 75px);
-    width: calc(100% - 25px)%;
-    border: 0px solid black;
-overflow:hidden;
-}
-
-.b2 {
-    width: 65%;
-    height: calc(100% - 75px);
-    float: right;
-}
-
-.blockc {
-    background-color: #7bcfa9;
-    width: 90%;
-    height: 75%;
-
-    padding-right: 10%;
-}
+        color:white;
+        font-size:60px;
+    }
+    .blockb1 {
+        width: 100%;
+        height: calc(100% - 75px);
+        background-color: #7bcfa9;
+        margin-top: 0px;
 
 
+    }
 
-.blockd1 {
-    background-color: #0f9d58;
-    width: 25%;
-    height: 25%;
-    float: left;
-    margin-top: 25px;
-    border: 0px solid black;
+    .blockb2 {
+        width: 100%;
+        padding-left: 0%;
+        height: 925px;
+        background-color: #1a8763;
+        margin-top: 0px;
 
-}
+    }
 
-.blockd2 {
-    background-color: #33b679;
-    float: left;
-    width: 75%;
-    height: 25%;
-    margin-top: 25px;
-    border: 0px solid black;
-    padding-right:25%;
-}
-.d2{
-    margin-left: 25px;
-    float:left;
-    height: 100%;
-    width: calc(100% - 25px - 25%);
-    border:0px solid black;
-}
-.reg {
-    margin-top: 5%;
-    height: 90%;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
-}
+    .c0 {
+        padding: 25px;
 
-.two {
 
-    width: 90%;
-    border: 0px solid gray;
-    margin-left: auto;
-    margin-right: auto;
+        border: 0px solid black;
+
+    }
+
+    .b2 {
+
+        width: 100%;
+        height: calc(100% - 75px);
+
+    }
+
+    .blockc {
+        background-color: #7bcfa9;
+        width: 100%;
+        height: 500px;
+        border:0px solid black;
+
+    }
+
+
+
+    .blockd1 {
+        background-color: #0f9d58;
+        width: 100%;
+        height: 150px;
+        float: left;
+        margin-top: 25px;
+        border: 0px solid black;
+
+    }
+
+    .blockd2 {
+        background-color: #33b679;
+        float: left;
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
+        border: 0px solid black;
+
+    }
+    .d2{
+
+        float:left;
+        height: 150px;
+        width: 100%;
+        border:0px solid black;
+
+    }
+    .reg {
+        margin-top: 5%;
+        height: 90%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+    }
+
+    .two {
+
+        width: 90%;
+        border: 0px solid gray;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 }
